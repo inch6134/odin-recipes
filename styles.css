@@ -1,9 +1,23 @@
+html {
+    box-sizing: border-box;
+}
+  
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 body {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Garamond' 'Trebuchet MS', sans-serif;
+    width: 1080px;
+    margin: 0 auto;
+    padding: 0 50px;
+    color: #006039;
 }
 
 img {
-    width: 400px;
+    width: auto;
     height: auto;
 }
 
@@ -11,6 +25,15 @@ li {
     font-size: 18px;
 }
 
+h1, h2 {
+    color: #a37e2c;
+}
+
+h1 {
+    font-size: 36px;
+}
+
 h2 {
     font-style: italic;
+    font-size: 30px;
 }
